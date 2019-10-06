@@ -1,0 +1,370 @@
+ /* ================
+ Header start
+ ===================  */
+
+ .navbar-brand {
+     position: sticky;
+     font-weight: 700;
+     font-size: 24px;
+ }
+
+ .nav-item {
+     font-weight: 700;
+ }
+
+ .MainBtn {
+     border-color: #e9204f;
+     color: #e9204f;
+     position: relative;
+     z-index: 1;
+ }
+
+ .MainBtn:hover {
+     color: #fff;
+ }
+
+ .MainBtn:hover::after {
+     width: 100%;
+ }
+
+ .MainBtn::after {
+     content: '';
+     position: absolute;
+     background: #e9204f;
+     color: #fff;
+     top: 0;
+     left: 0;
+     width: 0;
+     height: 100%;
+     transition: width .3s;
+     z-index: -1;
+ }
+
+ .line-row {
+     border: 1px solid #e9204f;
+     width: 14%;
+     margin: 15px 0;
+ }
+
+ /*======================
+ Header End
+ =======================  */
+
+ /* ====================== 
+ Digital Start
+========================= */
+ #Digital {
+     background-image: url(http://gentium.pixerex.com/wp/wp-content/uploads/2019/01/hero_01.png);
+     background-size: 680px auto;
+     background-repeat: no-repeat;
+     background-position: 85% 40%;
+     height: 750px;
+     padding: 70px 30px;
+ }
+
+ #Digital .digital-all-item {
+     position: absolute;
+     bottom: -150px;
+ }
+
+ #Digital h1 {
+     font-size: 70px;
+     font-weight: 800;
+ }
+
+ #Digital .digital-item {
+     padding: 60px 40px 60px 40px;
+     color: #000;
+     background: #fff;
+ }
+
+ #Digital .digital-item:hover {
+     background: #e9204f;
+     color: #fff;
+     transition: .4s ease-in-out;
+ }
+
+ #Digital .dig-active {
+     background: #e9204f;
+     color: #fff;
+ }
+
+ #Digital .digital-item h1 {
+     font-size: 24px;
+     font-weight: 700;
+     line-height: 1.4em;
+ }
+
+ #Digital i {
+     font-size: 50px;
+     font-weight: 100;
+ }
+
+ /* =============== 
+ Digital End
+====================*/
+
+ /* ================== 
+ Services Start
+======================== */
+
+ .Services-All .AllItem {
+     color: black;
+     background: rgb(216, 216, 216);
+     padding: 30px 10px 20px 10px;
+     margin: 15px 0;
+ }
+
+ .Services-All .AllItem:hover {
+     background: #e9204f;
+     color: white;
+     padding: 30px 10px 20px 50px;
+     transition: .2s ease-in-out;
+ }
+
+ .Services-All .AllItem h5 {
+     font-family: 'PT Sans', sans-serif;
+     font-size: 19px;
+     font-weight: 700;
+     line-height: 24px;
+ }
+
+ .Services-Header h1,
+ #Works .WorkItem h1,
+ .About-Header h1,
+ .ClientsBio h1 {
+     font-size: 70px;
+     font-weight: 800;
+ }
+
+ .Services-Header h6,
+ #Works .WorkItem h6,
+ .About-Header h6,
+ .ClientsBio h6 {
+     font-weight: 700;
+     color: #e9204f;
+ }
+
+ /* ===============
+ Services End
+================== */
+ .VerticalLine .vl {
+     margin: 50px 600px;
+     border: 1px solid #e9204f;
+     height: 70px;
+ }
+
+ .VerticalLine.box .vl {
+     margin: -80px 600px;
+     border: 1px solid #e9204f;
+     height: 100px;
+ }
+
+ /* =================
+Work start
+================ */
+ #Works .button a {
+     color: black;
+     font-weight: 500;
+ }
+
+ #Works .button a:hover {
+     color: white;
+ }
+
+ /* =================
+Work end
+================ */
+
+ /* ============
+Product Start
+================ */
+ .productItem {
+     background-image: url(http://gentium.pixerex.com/wp/wp-content/uploads/2019/01/09-min-1024x683.jpg);
+     width: 100%;
+     background-size: cover;
+     height: 300px;
+ }
+
+ .worldsItem {
+     opacity: 0;
+ }
+
+ .worldsItem:hover {
+     opacity: 1;
+     transition: .7s;
+ }
+
+ .productItem:hover {
+     transform: scale(.9);
+
+ }
+
+ /* ============
+Product End
+================ */
+
+ /* =================
+About Start
+================= */
+ .About-item p {
+     font-family: "Roboto Condensed", Sans-serif;
+     font-size: 18px;
+     font-weight: 300;
+     line-height: 26px;
+     color: #8E8E8E;
+ }
+
+ /* =================
+About End
+================= */
+
+ /* =================
+AboutImage Start
+=================  */
+ .AboutAll .Teamwork,
+ .AboutAll .Philosophy,
+ .AboutAll .Office {
+     background: url(http://gentium.pixerex.com/wp/wp-content/uploads/2019/01/about_01.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     width: 100%;
+     height: 500px;
+     filter: brightness(100%) contrast(100%) saturate(0%) blur(0px) hue-rotate(0deg);
+ }
+
+ .Teamwork:hover {
+     transition: .3s;
+     filter: none;
+ }
+
+ .AboutAll .Philosophy {
+     background-image: url(http://gentium.pixerex.com/wp/wp-content/uploads/2019/01/about_03.jpg);
+     height: 245px;
+ }
+
+ .AboutAll .Philosophy:hover {
+     transition: .3s;
+     filter: none;
+ }
+
+ .AboutAll .Office {
+     background-image: url(http://gentium.pixerex.com/wp/wp-content/uploads/2019/01/about_02.jpg);
+     height: 245px;
+     margin-top: 9px;
+ }
+
+ .AboutAll .Office:hover {
+     transition: .3s;
+     filter: none;
+ }
+
+ /* =================
+AboutImage End
+================= */
+
+ /* =================
+Biograpy Start
+================= */
+ .BiograpyItem p {
+     color: #8E8E8E;
+ }
+
+ /* =================
+Biograpy End
+================= */
+ /* =================
+Clients Start
+================= */
+ .ClientsBio {
+     padding-top: 10%;
+ }
+
+ .ClientsImage {
+     background-image: url(http://gentium.pixerex.com/wp/wp-content/uploads/2019/01/client_01.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: 85% 40%;
+     height: 500px;
+     padding: 70px 30px;
+     position: relative;
+ }
+
+ .ClientsImage::after {
+     content: '';
+     background-color: #E9204F;
+     height: 120px;
+     width: 120px;
+     bottom: -20px;
+     right: -20px;
+     position: absolute;
+     z-index: -1;
+ }
+
+ .ClientsBio p {
+     padding-top: 40px;
+     color: #8E8E8E;
+     font-size: 19px;
+ }
+
+ /* =================
+Clients End
+================= */
+
+ /* =================
+Partner Start
+================= */
+ .IconPartner {
+     padding: 30px;
+ }
+
+ /* =================
+Partner End
+================= */
+ /* =================
+Talk Start
+================= */
+ .footer {
+     background-color: #1B1B1B;
+     width: 100%;
+     left: 0;
+     bottom: 0;
+     color: white;
+     height: 300px;
+ }
+
+ .logoTalking i {
+     font-size: 20px;
+     margin-right: 10px;
+     border: 2px solid #E9204F;
+     padding: 0.7em;
+     border-radius: 50%;
+ }
+ .logoTalking i:hover{
+    transform: translateY(-8px);
+     color:#e9204f; 
+ }
+ .footerColl {
+     background-color: #161616;
+     width: 100%;
+     left: 0;
+     bottom: 0;
+     color: white;
+     height: 130px;
+     text-align: center;
+     padding-top: 30px;
+ }
+
+ .footerColl a {
+     text-decoration: none;
+     color: white;
+ }
+
+ .footerColl a:hover {
+     color: #e9204f;
+     transition: .3s;
+ }
+
+ /* =================
+Talk End
+================= */
