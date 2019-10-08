@@ -61,10 +61,11 @@
      height: 750px;
      padding: 70px 30px;
  }
-
- #Digital .digital-all-item {
-     position: absolute;
-     bottom: -150px;
+.digital-middle{
+    position: relative;
+}
+ .digital-all-item {
+     transform: translateY(-150px)
  }
 
  #Digital h1 {
@@ -72,13 +73,12 @@
      font-weight: 800;
  }
 
- #Digital .digital-item {
+ .digital-item {
      padding: 60px 40px 60px 40px;
      color: #000;
      background: #fff;
  }
-
- #Digital .digital-item:hover {
+ .digital-item:hover {
      background: #e9204f;
      color: #fff;
      transition: .4s ease-in-out;
@@ -89,15 +89,16 @@
      color: #fff;
  }
 
- #Digital .digital-item h1 {
+.digital-item h1 {
      font-size: 24px;
      font-weight: 700;
      line-height: 1.4em;
  }
 
- #Digital i {
+ .digital-item i {
      font-size: 50px;
      font-weight: 100;
+     margin: 40px 0
  }
 
  /* =============== 
